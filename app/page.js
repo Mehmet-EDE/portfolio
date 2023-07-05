@@ -13,7 +13,7 @@ export default function Home() {
         <SideBar />
       </div>
 
-      <div className="w-full bg-edeColor p-4 h-screen overflow-hidden">
+      <div className="w-full bg-edeColor p-4 h-screen overflow-hidden overflow-x-hidden rsm:overflow-y-scroll rmd:overflow-y-scroll">
         <MainPage />
       </div>
 
