@@ -26,18 +26,30 @@ function MainPage() {
                     }} />
                 <p className='text-2xl tracking-wider font-mono  mt-6' >I'm a front-end developer and I can turn my imagination into reality using JavaScript.</p>
             </div>
-            <div className='w-[500px] h-[500px] border-green-100 bg-green-100 bg-opacity-5 backdrop-blur-3xl  drop-shadow-lg border-solid border-2 border-opacity-10 z-10 p-10 rounded-xl'>
+            <div className='w-[500px] h-[500px] border-green-100 bg-green-100 bg-opacity-5 backdrop-blur-3xl overflow-y-scroll drop-shadow-lg border-solid border-2 border-opacity-10 z-10 p-10 rounded-xl'>
                 {/* <input type='range' value={50}  className='bg-green-700 thumb' /> */}
-                <p className='text-5xl tracking-wider text-white text-center p-4 underline'> My Skills</p>
+                <p className='text-5xl tracking-wider text-white text-center p-4 underline  inset-0'> My Skills</p>
 
                 <label for="HTML5" className="block mb-2 mt-12 text-white font-bold text-xl">HTML5</label>
-                <input id="JavaScript" type="range" value="65" className="w-full h-2 rounded-lg appearance-none linear cursor-pointer accent-green-600 bg-gradient-to-r  from-green-700 to-gray-700" />
+                <input id="JavaScript" type="range" value="65" className="w-full h-2 rounded-lg appearance-none linear cursor-pointer accent-green-300 bg-gradient-to-r  from-green-700 to-gray-700" />
 
                 <label for="JavaScript" className="block mb-2 mt-3 text-white font-bold text-xl">JavaScript</label>
-                <input id="HTML5" type="range" value="75" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-600 bg-gradient-to-r from-green-700 to-gray-700" />
+                <input id="HTML5" type="range" value="75" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
                 <label for="CSS" className="block mb-2 mt-3 text-white font-bold text-xl">CSS</label>
-                <input id="CSS" type="range" value="55" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-600 bg-gradient-to-r from-green-700 to-gray-700" />
+                <input id="CSS" type="range" value="55" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+
+                <label for="Tailwind" className="block mb-2 mt-3 text-white font-bold text-xl">Tailwind</label>
+                <input id="Tailwind" type="range" value="45" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+
+                <label for="ReactJS" className="block mb-2 mt-3 text-white font-bold text-xl">ReactJS</label>
+                <input id="HTML5" type="range" value="75" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+
+                <label for="NextJS" className="block mb-2 mt-3 text-white font-bold text-xl">NextJS</label>
+                <input id="HTML5" type="range" value="45" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+
+                <label for="NodeJS" className="block mb-2 mt-3 text-white font-bold text-xl">NodeJS</label>
+                <input id="NodeJS" type="range" value="55" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
             </div>
         </div>
