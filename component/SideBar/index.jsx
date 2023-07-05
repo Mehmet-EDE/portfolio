@@ -23,8 +23,9 @@ function SideBar() {
             >
                 Mehmet EDE
             </p>
-            <ul className="absolute top-72 left-5 text-white text-xs z-20 p-2">
-                <li className="flex items-center tracking-[3px] mb-5 transition-all duration-300 hover:translate-x-3 hover:text-green-600 cursor-pointer"> <HomeIcon className='h-6' />HOME</li>
+            <ul className="absolute top-72 left-5 items-center justify-center text-white text-xs z-20 p-2">
+                <li className="flex items-center tracking-[3px] mb-5 transition-all translate-x-3 duration-300 hover:translate-x-5 text-center hover:text-green-600 cursor-pointer">
+                    <HomeIcon className='h-6 m-2 text-center' />HOME</li>
                 {/* <li className="flex items-center tracking-[3px] mb-5 transition-all duration-300 hover:translate-x-3 hover:text-green-600 cursor-pointer"> <UserIcon className='h-6' />ABOUT ME</li> */}
                 {/* <li className="flex items-center tracking-[3px] mb-5 transition-all duration-300 hover:translate-x-3 hover:text-green-600 cursor-pointer"><ChatBubbleBottomCenterTextIcon className='h-6' />CONTACT ME</li> */}
             </ul>
