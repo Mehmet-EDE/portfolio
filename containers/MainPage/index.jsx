@@ -30,13 +30,13 @@ function MainPage() {
                     {/* <input type='range' value={50}  className='bg-green-700 thumb' /> */}
                     <p className='text-5xl tracking-wider text-white text-center p-4 underline'> My Skills</p>
 
-                    <label for="HTML5" class="block mb-2 text-white font-bold text-xl">HTML5</label>
+                    <label for="HTML5" class="block mb-2 mt-12 text-white font-bold text-xl">HTML5</label>
                     <input id="JavaScript" type="range" value="65" class="w-full h-2 bg-green-500 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
 
-                    <label for="JavaScript" class="block mb-2 text-white font-bold text-xl">JavaScript</label>
+                    <label for="JavaScript" class="block mb-2 mt-3 text-white font-bold text-xl">JavaScript</label>
                     <input id="HTML5" type="range" value="75" class="w-full h-2 bg-green-500 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
 
-                    <label for="CSS" class="block mb-2 text-white font-bold text-xl">CSS</label>
+                    <label for="CSS" class="block mb-2 mt-3 text-white font-bold text-xl">CSS</label>
                     <input id="CSS" type="range" value="55" class="w-full h-2 bg-green-500 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
 
                 </div>
