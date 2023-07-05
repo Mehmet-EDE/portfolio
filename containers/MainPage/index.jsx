@@ -31,13 +31,13 @@ function MainPage() {
                     <p className='text-5xl tracking-wider text-white text-center p-4 underline'> My Skills</p>
 
                     <label for="HTML5" class="block mb-2 text-black dark:text-white font-bold text-xl">HTML5</label>
-                    <input id="JavaScript" type="range" value="65" class="w-full h-2 bg-red-200 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
+                    <input id="JavaScript" type="range" value="65" class="w-full h-2 bg-green-500 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
 
                     <label for="JavaScript" class="block mb-2 text-black dark:text-white font-bold text-xl">JavaScript</label>
-                    <input id="HTML5" type="range" value="75" class="w-full h-2 bg-red-200 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
+                    <input id="HTML5" type="range" value="75" class="w-full h-2 bg-green-500 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
 
                     <label for="CSS" class="block mb-2 text-black dark:text-white font-bold text-xl">CSS</label>
-                    <input id="CSS" type="range" value="55" class="w-full h-2 bg-red-200 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
+                    <input id="CSS" type="range" value="55" class="w-full h-2 bg-green-500 rounded-lg appearance-none cursor-pointer accent-green-600 dark:bg-green-700" />
 
                 </div>
             </div>
