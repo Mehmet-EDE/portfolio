@@ -23,14 +23,14 @@ function MainPage() {
                         flexWrap: 'nowrap',
                         color: '#2fbf71'
                     }} />
-                <p className='text-2xl tracking-wider font-mono  mt-6' >I'm a front-end developer and I can turn my imagination into reality using JavaScript.</p>
+                <p className='text-2xl tracking-wider font-mono  mt-6' >{"I'm a front-end developer and I can turn my imagination into reality using JavaScript"}.</p>
             </div>
             <div className='w-[500px] h-[500px] border-green-100 bg-green-100 bg-opacity-5 backdrop-blur-3xl text-center  drop-shadow-lg border-solid border-2 border-opacity-10 z-10 rsm:z-0 p-10 rounded-xl'>
                     <p className='text-2xl tracking-wider text-white font-mono  mt-6 pb-6'>
-                    I'm a Front-end Developer with over 3 years of experience.
+                    {"I'm a Front-end Developer with over 3 years of experience."}
                     </p>
                     <p className='text-lg tracking-wider text-white font-[didactic]  mt-10 pt-10'>
-                    I'm a Front-end Developer with over 3 years of experience. I'm from Sivas. I code and create web elements for amazing projects . I like work with new technologies . 
+                    {"I'm a Front-end Developer with over 3 years of experience. I'm from Sivas. I code and create web elements for amazing projects . I like work with new technologies . "}
                     </p>
             </div>
         </div>
