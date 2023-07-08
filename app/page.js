@@ -10,7 +10,6 @@ export default function Home() {
 
       <div className="w-full bg-edeColor p-4 h-screen flex-wrap justify-center overflow-x-hidden rsm:overflow-y-scroll rmd:overflow-y-scroll rlg:overflow-y-scroll">
         <MainPage />
-        <p className='flex text-3xl text-white  text-center relative items-start left-[10rem] -bottom-32 ' >My Projects </p>
         <About />
       </div>
 
