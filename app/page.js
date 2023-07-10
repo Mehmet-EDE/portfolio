@@ -12,6 +12,7 @@ export default function Home() {
         <section id='homePage'>
           <MainPage />
         </section>
+        <br/>
         <section id='AboutPage'>
           <About />
         </section>
