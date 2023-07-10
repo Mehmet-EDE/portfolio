@@ -8,6 +8,9 @@
   scrollbar-width: thin;
     scrollbar-color: #17203a #ffffff;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 li {
   margin-bottom: 20px;
