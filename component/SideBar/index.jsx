@@ -34,7 +34,7 @@ function SideBar({hide}) {
                         duration: 500,
                         delay: 300,
                         smooth: true,
-                    })} className='flex items-center' scrollSmooth scroll={true} >
+                    })} className='flex items-center' scroll={true} >
                         <HomeIcon className='h-6 m-2 text-center' />HOME
                     </Link>
                 </li>
@@ -43,7 +43,7 @@ function SideBar({hide}) {
                         containerId: 'AboutPage', duration: 500,
                         delay: 300,
                         smooth: "easeInOutCubic",
-                    })} className='flex items-center scroll-smooth' scrollSmooth scroll={true} >
+                    })} className='flex items-center scroll-smooth' scroll={true} >
                         <UserIcon className='h-6' />ABOUT ME
                     </Link>
                 </li>
