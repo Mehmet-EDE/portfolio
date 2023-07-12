@@ -37,32 +37,32 @@ function About() {
                after:border-t-green-700
                 after:border-r-transparent after:border-l-transparent'>2010-2012 </span><h6 className='text-xl mt-3 p-3'>Front-end Develoer</h6><p className='p-5' ><hr /><br /> Technology: SAPUI5</p></li> */}
       </ul>
-      <div className='w-[40%] h-[500px] border-green-100 bg-green-100 bg-opacity-5 backdrop-blur-3xl overflow-y-scroll drop-shadow-lg border-solid border-2 border-opacity-10  p-10 rounded-xl rsm:w-full'>
+      <div className='w-[40%] select-none h-[500px] border-green-100 bg-green-100 bg-opacity-5 backdrop-blur-3xl overflow-y-scroll drop-shadow-lg border-solid border-2 border-opacity-10  p-10 rounded-xl rsm:w-full'>
         <p className='text-5xl tracking-wider text-white text-center p-4 underline  inset-0'> My Skills</p>
 
         <label htmlFor="HTML5" className="block mb-2 mt-12 text-white font-bold text-xl">HTML5</label>
-        <input id="JavaScript" type="range" disabled defaultValue="65" className="w-full h-2 rounded-lg appearance-none linear cursor-pointer accent-green-300 bg-gradient-to-r  from-green-700 to-gray-700" />
+        <input id="JavaScript" type="range" disabled defaultValue="65" className="w-full h-2 rounded-lg appearance-none linear cursor-default accent-green-300 bg-gradient-to-r  from-green-700 to-gray-700" />
 
         <label htmlFor="JavaScript" className="block mb-2 mt-3 text-white font-bold text-xl">JavaScript</label>
-        <input id="HTML5" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="HTML5" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="CSS" className="block mb-2 mt-3 text-white font-bold text-xl">CSS</label>
-        <input id="CSS" type="range" disabled defaultValue="55" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="CSS" type="range" disabled defaultValue="55" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="Tailwind" className="block mb-2 mt-3 text-white font-bold text-xl">Tailwind</label>
-        <input id="Tailwind" type="range" disabled defaultValue="45" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="Tailwind" type="range" disabled defaultValue="45" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="ReactJS" className="block mb-2 mt-3 text-white font-bold text-xl">ReactJS</label>
-        <input id="HTML5" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="HTML5" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="NextJS" className="block mb-2 mt-3 text-white font-bold text-xl">NextJS</label>
-        <input id="HTML5" type="range" disabled defaultValue="45" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="HTML5" type="range" disabled defaultValue="45" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="NodeJS" className="block mb-2 mt-3 text-white font-bold text-xl">NodeJS</label>
-        <input id="NodeJS" type="range" disabled defaultValue="55" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="NodeJS" type="range" disabled defaultValue="55" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
        
         <label htmlFor="SAPUI5" className="block mb-2 mt-3 text-white font-bold text-xl">SAPUI5</label>
-        <input id="SAPUI5" type="range" disabled defaultValue="85" className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="SAPUI5" type="range" disabled defaultValue="85" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
       </div>
     </div>
