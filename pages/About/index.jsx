@@ -41,10 +41,10 @@ function About() {
         <p className='text-5xl tracking-wider text-white text-center p-4 underline  inset-0'> My Skills</p>
 
         <label htmlFor="HTML5" className="block mb-2 mt-12 text-white font-bold text-xl">HTML5</label>
-        <input id="JavaScript" type="range" disabled defaultValue="65" className="w-full h-2 rounded-lg appearance-none linear cursor-default accent-green-300 bg-gradient-to-r  from-green-700 to-gray-700" />
+        <input id="HTML5" type="range" disabled defaultValue="65" className="w-full h-2 rounded-lg appearance-none linear cursor-default accent-green-300 bg-gradient-to-r  from-green-700 to-gray-700" />
 
         <label htmlFor="JavaScript" className="block mb-2 mt-3 text-white font-bold text-xl">JavaScript</label>
-        <input id="HTML5" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="JavaScript" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="CSS" className="block mb-2 mt-3 text-white font-bold text-xl">CSS</label>
         <input id="CSS" type="range" disabled defaultValue="55" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
@@ -53,10 +53,13 @@ function About() {
         <input id="Tailwind" type="range" disabled defaultValue="45" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="ReactJS" className="block mb-2 mt-3 text-white font-bold text-xl">ReactJS</label>
-        <input id="HTML5" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="ReactJS" type="range" disabled defaultValue="75" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+
+        <label htmlFor="React-Native" className="block mb-2 mt-3 text-white font-bold text-xl">React-Native</label>
+        <input id="RN" type="range" disabled defaultValue="70" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="NextJS" className="block mb-2 mt-3 text-white font-bold text-xl">NextJS</label>
-        <input id="HTML5" type="range" disabled defaultValue="45" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
+        <input id="Next" type="range" disabled defaultValue="45" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
 
         <label htmlFor="NodeJS" className="block mb-2 mt-3 text-white font-bold text-xl">NodeJS</label>
         <input id="NodeJS" type="range" disabled defaultValue="55" className="w-full h-2 rounded-lg appearance-none cursor-default accent-green-300 bg-gradient-to-r from-green-700 to-gray-700" />
