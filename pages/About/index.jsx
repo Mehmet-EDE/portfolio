@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div className='w-full h-screen flex items-center justify-around relative rsm:flex-wrap rsm:mt-40'>
-      <p className='flex w-fit text-3xl text-white  text-center absolute rsm:mt-96 items-start left-[10rem] mt-32 -top-10 rlg:mt-0 self-center rsm:left-0 ' >My Projects </p>
+      <p className='flex w-fit text-3xl text-white  text-center absolute rsm:mt-96 items-start left-[10rem] mt-32 -top-10 renemy:-top-36 renemy:mt-0 self-center rsm:left-0 ' >My Projects </p>
       <br />
       <ul className="w-[42%]  inset-0 list-none inline-block rsm:w-full rsm:mt-96 mt-10 text-white ">
         <li className='pt-[1px] pb-[1px] p-5 bg-[#0b0b13]'><span className='bg-[#2fbf71] text-white text-xs p-1 align-top tracking-tight -m-1 -left-7 relative mb-[9px] after:absolute

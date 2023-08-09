@@ -20,6 +20,7 @@ module.exports = {
         rsm: { "max": "639px" },
         rmd:{"max":"767px"},
         rlg:{"max":"1270px"},
+        renemy:{"max":"13065px"},
       }
     },
   },
